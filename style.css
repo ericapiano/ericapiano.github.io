@@ -1,0 +1,28 @@
+#main-header {
+background-image: url(images/redCoding.jpg);
+opacity: 6%;
+}
+
+.social-btn {
+  padding-top: 6px;
+  padding-right: 30%;
+}
+
+.phoneNumber {
+  font-size: 36px;
+}
+
+.pics {
+  height: 30%;
+  width: 30%;
+  align-items: center;
+}
+
+.square:hover {
+background-color: red;
+}
+
+#hi:hover {
+  background-color: aqua;
+}
+

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Erica Piano | Web Developer</title>
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="ionicons.min.css" rel="stylesheet">
+    <link href="styles.scss" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <![endif]-->
+</head>
+
+<body data-spy="scroll" data-target="#main-nav">
+
+    <div class="loader-screen">
+        <ul class="loading-bar">
+            <li class="loading-line"></li>
+            <li class="loading-line"></li>
+            <li class="loading-line"></li>
+            <li class="loading-line"></li>
+            <li class="loading-line"></li>
+        </ul>
+    </div>
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <header class="main-header" id="main-header">
+                <nav class="navbar">
+                    <h6><span class="sr-only">Main navigation</span></h6>
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="nav-toggle-btn collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="ion-navicon nav-open"></span>
+                                <span class="ion-android-close nav-close"></span>
+                            </button>
+                            <!-- <a class="navbar-brand nav-link logo" href="#main-header">
+                                <img class="logo-img logo-white" src="res/img/logo_white.png" alt="Yiotis logo white" />
+                                <img class="logo-img logo-dark" src="res/img/logo_dark.png" alt="Yiotis logo black" />
+                                Yiotis
+                            </a> -->
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="main-nav">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#about-me" class="nav-link">About me</a></li>
+                                <li><a href="#tools" class="nav-link">Tools</a></li>
+                                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                                <li><a href="#contact" class="nav-link">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="overlay"></div>
+                <div class="welcome-box">
+                    <strong><p style="font-size: 60px;">Hi there, I'm Erica.</p></strong>
+                    <h1>  full stack web developer</h1>
+                </div>
+                <nav class="social-nav">
+                    <h6><span class="sr-only">Social navigation</span></h6>
+                    <ul class="nav invisible">
+
+
+                      <li><a class="fas fa-envelope-square social-btn social-email" href="mailto:ericapiano@gmail.com" target="_blank"></a>
+                          <li><a class="fab fa-github social-btn social-github" href="https://github.com/ericapiano" target="_blank"></a>
+                            <li><a class="fab fa-linkedin social-btn social-linkedin" href="https://www.linkedin.com/feed/" target="_blank"></a>
+                              <li><a class="fab fa-twitter social-btn social-fb" href="https://twitter.com/__ecp" target="_blank"></a>
+
+
+
+                        <!-- <li><a class="social-btn social-fb" href="https://twitter.com/__ecp" target="_blank"><span class="ion-social-facebook"></span></a></li>
+                        <li><a class="social-btn social-linkedin" href="https://www.linkedin.com/feed/" target="_blank"><span class="ion-social-linkedin"></span></a></li>
+                        <li><a class="social-btn social-github" href="https://github.com/ericapiano" target="_blank"><span class="ion-social-github"></span></a></li>
+                        <li><a class="social-btn social-email" href="mailto:ericapiano@gmail.com"><span class="ion-ios-email"></span></a></li>
+ -->
+
+                        <!-- <i class="fab fa-github"></i> -->
+                            
+                    
+                    
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <!-- About me -->
+        <div class="row">
+            <section class="container about-me" id="about-me">
+
+                <div class="row">
+                    <h2>About me</h2>
+                </div>
+
+                <div class="row visible-xs visible-sm">
+                    <div class="col-sm-12 bg-me">
+                    </div>
+                </div>
+
+                <div class="row feats-row">
+                    <div class="col-md-6 feats-container">
+                        <section>
+                            <h3><i class="fas fa-glasses icon-header"></i> Who I Am</h3>
+                            <p>My name is Erica Piano, and I am a web developer working in Central New Jersey. Recently I have completed a formal education in Web Development and have expanded skills to creating custom projects from scratch.</p>
+                          </section>
+                    </div>
+                    <div class="col-md-6 feat-bg bg-me hidden-xs hidden-sm invisible"></div>
+                </div>
+
+                <div class="row feats-row">
+                    <div class="col-md-6 feat-bg bg-whatido hidden-xs hidden-sm invisible">
+                    </div>
+                    <div class="col-md-6 feats-container">
+                        <section>
+                            <!-- <h3><span class="ion-ios-color-wand-outline icon-header"></span>What I do</h3> -->
+                            <h3><i class="fas fa-code icon-header"></i> What I do</h3>
+                            <p>I am a full stack web developer with a passion for the front end. I focus on UI and mobile-responsive design. I take the most pride in creating premium content while keeping a clean code, and developing my own front and backend of my applications. </p>
+                          </section>
+                    </div>
+                </div>
+
+                <div class="row feats-row">
+                    <div class="col-md-6 feats-container">
+                        <section>
+                            <h3><i class="fas fa-book-open icon-header"></i> FUN FACTS</h3>
+                            <ul class="list-unstyled">
+                                <li><span class="color-main">Coding:</span> I am educated in HTML, CSS, Bootstrap, JavaScript, JQuery, MySQL, Node.js, React, MongoDB, Sequel Pro, express, and using npm packages.</li>
+                                <li><span class="color-main">Education:</span> I graduated with Honors from both Rutgers Univerisity fullstack web development bootcamp, and with my Bachelors degree from Penn State University.</li>
+                                <li><span class="color-main">Hobbies:</span> My breaks from writing code include working as a mental health counselor and volunteering for a local pet adoption agency.</li>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="col-md-6 feat-bg bg-facts hidden-xs hidden-sm invisible"></div>
+                </div>
+
+            </section>
+        </div>
+
+        <!-- Tools -->
+        <section class="row dark-container tools-row">
+            <div class="container tools" id="tools">
+                <div class="row">
+                  <br>
+                    <h2>My tools</h2>
+                    <br>
+                </div>
+                <div class="row">
+                    <section class="col-sm-4 skill-box">                        
+
+
+
+                        <div class="row">
+                            <h3><i class="fab fa-html5 icon-header"></i>HTML5</h3>
+                            <p>HTML is the foundation of a good website. I make use of HTML semantics to improve screen-reader accessibility. I always make sure my markup is W3C validated.</p>
+                        </div>
+                    </section>
+                    <section class="col-sm-4 skill-box">
+                        <div class="row">
+
+                            <h3><i class="fab fa-react icon-header"></i>REACT</h3>
+                            <p>JS is a powerful language, my knowledge in lower-level languages has helped me comprehend its mechanics. I employ ReactJS, with a functional approach, to deliver demanding frontend solutions.</p>
+                        </div>
+                    </section>
+                    <section class="col-sm-4 skill-box">
+                        <div class="row">
+
+                            <h3><i class="fab fa-node-js icon-header"></i>NODE.JS</h3>
+                            <p>JS is a language of many quirks, my knowledge in lower-level languages has helped me comprehend its mechanics. I employ ReactJS and Redux, with a functional approach, to deliver demanding frontend solutions.</p>
+                        </div>
+                        <br><br><br>
+                    </section>
+                </div>
+
+
+                <div class="row">
+                    <ul class="libs-showcase clearfix">
+                        <li><img class="js-tool-logo invisible" id="angular-logo" src="images/react-hexagon.png" alt="AngularJS logo"></li>
+                        <li><img class="js-tool-logo invisible" id="sass-logo" src="images/bootstrap.png" alt="Sass logo"></li>
+                        <li><img class="js-tool-logo invisible" id="jquery-logo" src="images/betternode.png" alt="jQuery logo"></li>
+                        <li><img class="js-tool-logo invisible" id="bootstrap-logo" src="images/hexjquery.png" alt="Bootstrap logo"></li>
+                        <li><img class="js-tool-logo invisible" id="gimp-logo" src="images/sqlpro.png" alt="Gimp logo"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <div class="portfolio-row row">
+            <section class="container portfolio" id="portfolio">
+                <div class="row">
+                    <h2>Portfolio</h2>
+                </div>
+
+                <div class="row">
+                    <!-- <nav>
+                        <h6><span class="sr-only">Portfolio navigation</span></h6>
+                        <ul class="nav nav-pills portfolio-nav filter-options">
+                            <li class="active-tab" data-filter="all">All</li>
+                            <li data-filter="1">Sites</li>
+                            <li data-filter="2">Code</li>
+                            <li data-filter="3">Graphics</li>
+                        </ul>
+                    </nav> -->
+                </div>
+
+                <div class="row">
+                    <div class="showcase-container clearfix" id="showcase-container">
+
+
+                        <section class="col-sm-6 filtr-item showcase-item" data-category="1">
+                            <img class="img-responsive showcase-img" src="images/football.jpg" alt="Akustix website">
+                            <div class="item-desc">
+                                <h4>SCORECENTER EXPRESS</h4>
+                                <p>A NFL themed website that features sign up and login. Contains a homepage for each of the 32 teams pages, which show updated division standing, game match ups and scores, and team roster. There is a chat page for people to message with each other, and a post page for users to cread and reply to threads.
+                                </p>
+                                <a class="button preview-btn" href="https://scorecenterexpress.herokuapp.com/home" target="_blank">Visit</a>
+                                <a class="button github-btn" href="https://github.com/tn97/ScoreCenter-Express" target="_blank">GitHub</a>
+                            </div>
+                        </section>
+
+                        <section class="col-sm-6 filtr-item showcase-item" data-category="1">
+                            <img class="img-responsive showcase-img" src="images/bitcoin.jpg" alt="Photocraft theme">
+                            <div class="item-desc">
+                                <h4>The Crypto Clubhouse</h4>
+                                <p>A cryptocurrency themed website that uses JS, JQuery, and 2 APIs to display current market trends by multiple national currencies, and a search page of news articles from www.ccn.com </p>
+                                <a class="button preview-btn" href="https://ericapiano.github.io/CryptoClubhouse/" target="_blank">Visit</a>
+                                <a class="button github-btn" href="https://github.com/giotiskl/Photocraft" target="_blank">GitHub</a>
+                            </div>
+                        </section>
+
+                        <section class="col-sm-6 filtr-item showcase-item" data-category="1, 2">
+                            <img class="img-responsive showcase-img" src="images/graphpaper.jpg" alt="Filterizr plugin">
+                            <div class="item-desc">
+                                <h4>NOTE TAKER</h4>
+                                <p>A Node, Express, and MySQL powered note-taking application that allows users to post and delete notes.</p>
+                                <a class="button preview-btn" href="https://glacial-garden-58594.herokuapp.com/" target="_blank">Visit</a>
+                                <a class="button github-btn" href="https://github.com/ericapiano/noteTaker" target="_blank">GitHub</a>
+                            </div>
+                        </section>
+
+                        <section class="col-sm-6 filtr-item showcase-item" data-category="1">
+                            <img class="img-responsive showcase-img" src="images/friends.jpg" alt="XtremeTravels website">
+                            <div class="item-desc">
+                                <h4>FRIENDS TRIVIA GAME</h4>
+                                <p>A FRIENDS triva game built with javascript, HTML, CSS, and Bootstrap that incorporates a timer. Turn up your volume while playing to hear the show's theme song as you play! </p>
+                                <a class="button preview-btn" href="https://ericapiano.github.io/triviaGame/" target="_blank">Visit</a>
+                                <a class="button github-btn" href="https://github.com/ericapiano/triviaGame" target="_blank">GitHub</a>
+                            </div>
+                        </section>
+
+
+                    </div>
+                </div>
+
+
+            </section>
+        </div>
+
+        <!-- Contact -->
+        <div class="row contact-row dark-container">
+            <section class="container contact" id="contact">
+                <div class="row">
+                    <h2>Get in touch</h2>
+                </div>
+
+
+
+                <div class="social nav-menu__social-btn">
+                  <a href="https://github.com/ericapiano" class="btn btn-primary" class="btn btn-primary" style="background-color: white; color: black;" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+                  <a href="https://www.linkedin.com/in/erica-piano-2320b066/" class="btn btn-primary"  style="background-color: white; color: black;" target="_blank"><i class="fab fa-linkedin fa-3x"></i>
+                  <!-- <a href="https://twitter.com/__ecp" class="btn btn-primary" style="background-color: white; color: black;" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a> -->
+                  <a id="hi" href="mailto:ericapiano@gmail.com" class="btn btn-primary" style="background-color: white; color: black;" target="_blank"> <i class="fas fa-envelope-square fa-3x"></i> </a>
+                  <a href="mailto:+19082404743@tmomail.net" class="btn btn-primary" style="background-color: white; color: black;" target="_blank"> <i class="fas fa-phone-square fa-3x"></i> </a>
+                </a>
+          
+                </div> <br>
+                <div class="phoneNumber">
+                  908-240-4743
+                </div>
+
+                <!-- <div class="row">
+                    <form id="contact-form" method="post" action="http://formspree.io/yiotiskal@gmail.com">
+                        <div class="row">
+                            <input name="form-name" id="form-name" type="text" placeholder="your name" required>
+                        </div>
+                        <div class="row">
+                            <input name="form-email" id="form-email" type="email" placeholder="your email" required>
+                        </div>
+                        <div class="row">
+                            <textarea name="form-msg" id="form-msg" placeholder="your message" required></textarea>
+                        </div>
+                        <div class="row">
+                            <button type="submit" class="button">Submit</button>
+                        </div>
+                    </form>
+                </div> -->
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <div class="row dark-container">
+            <footer class="footer-main">
+                <p>erica piano &mdash; 2018 &copy;</p>
+            </footer>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.2.0/imagesloaded.pkgd.min.js"></script>
+    <script src="jquery.filterizr.min.js"></script>
+    <script src="particles.min.js"></script>
+    <script src="typewriter.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
