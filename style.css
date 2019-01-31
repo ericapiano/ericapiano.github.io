@@ -1,6 +1,6 @@
 #main-header {
-background-image: url(images/redCoding.jpg);
-opacity: 6%;
+  background-image: url(images/redCoding.jpg);
+  opacity: 6%;
 }
 
 .social-btn {
@@ -19,10 +19,39 @@ opacity: 6%;
 }
 
 .square:hover {
-background-color: red;
+  background-color: red;
 }
 
 #hi:hover {
   background-color: aqua;
 }
 
+@media (max-width: 760px) {
+  #main-header > div.welcome-box > strong > p > span {
+    font-size: 20px;
+  }
+  .social-nav {
+    top: 65%;
+  }
+
+  h1 {
+    font-size: 150%;
+  }
+}
+
+@media (max-width: 760px) {
+  .showcase-item {
+    height: 500px;
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .showcase-item {
+    height: 300px;
+    width: 300px;
+  }
+  .button {
+    font-size: 80%;
+  }
+}
