@@ -68,3 +68,9 @@
     margin-top: 25px;
   }
 }
+
+@media (max-width: 300px) {
+  .social-nav {
+    margin-top: 25px;
+  }
+}
