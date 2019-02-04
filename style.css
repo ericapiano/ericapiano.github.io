@@ -55,3 +55,16 @@
     font-size: 80%;
   }
 }
+
+@media (max-width: 350px) {
+  .showcase-item {
+    height: 300px;
+    width: 300px;
+  }
+  .button {
+    font-size: 80%;
+  }
+  .social-nav {
+    margin-top: 25px;
+  }
+}
