@@ -71,6 +71,6 @@
 
 @media (max-width: 300px) {
   .social-nav {
-    margin-top: 25px;
+    top: 75px;
   }
 }
