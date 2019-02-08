@@ -69,7 +69,7 @@
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 400px) {
   .social-nav {
     top: 75px;
   }
