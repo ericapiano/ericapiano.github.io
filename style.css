@@ -54,6 +54,9 @@
   .button {
     font-size: 80%;
   }
+  .welcome-box {
+    padding-bottom: 400px;
+  }
 }
 
 @media (max-width: 350px) {
