@@ -54,9 +54,6 @@
   .button {
     font-size: 80%;
   }
-  .welcome-box {
-    padding-bottom: 400px;
-  }
 }
 
 @media (max-width: 350px) {
@@ -69,11 +66,5 @@
   }
   .social-nav {
     margin-top: 25px;
-  }
-}
-
-@media (max-width: 400px) {
-  .welcome-box {
-    padding-bottom: 400px;
   }
 }
